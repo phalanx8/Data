@@ -11,7 +11,7 @@
     },
     {
         "anleitung": {
-        "schrittText": "# Openssh Enumeration\n Ihr Kollege hat in der zwischenzeit herausgefunden, dass Stefan von Universal Exports ein Github Account hat.\n Schauen Sie sich sein Profil auf [Github](https://github.com/stefanv) an.\n Auf dem Profil müsste Ihnen dieser Abschnitt aufgefallen sein.\n",
+        "schrittText": "# Openssh Enumeration\n Ihr Kollege hat in der zwischenzeit herausgefunden, dass Stefan von Universal Exports ein Github Account hat.\n Schauen Sie sich sein Profil auf [Github](https://github.com/stefanv) an.\n Auf dem Profil müsste Ihnen dieser Abschnitt aufgefallen sein.\n ![Stefan](https://raw.githubusercontent.com/phalanx8/Data/master/stefan.png)\n Unter dem Bild, dass Stefan darstellt, ist sein Name zu erkennen. Stefan van der Walt. Darunter ist sein Github-Username: stefanv.\n Auf anderen Entwicklerportalen wie [Docker Hub](https://hub.docker.com) verwendet Stefan den selben Benutzernamen.\n ## Stunde der Wahrheit\n Verwenden Sie stefanv als Benutzernamen.\n ```bash\npython ssh-check-username.py --username stefanv stefan.admin.UniversalExports.com\n```\n *Bestätigen Sie mit Next nach einem erfolgreichen durchlauf.*",
         "schritt": 1,
         "onInstance": "http://localhost:8081" 
     },
