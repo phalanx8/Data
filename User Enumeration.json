@@ -1,0 +1,22 @@
+[
+    {
+        "anleitung": {
+        "schrittText": "# Openssh Enumeration\n Ihr Kollege weist Sie auf den Host `stefan.admin.UniversalExports.com`. Er hat den Verdacht, dass ein gewisser Stefan sich von zu Hause auf sein Arbeitsrechner einloggt.\n ## SSH Vulnerbility ausnutzen\n Ihre Aufgabe ist es herauszufinden, ob Stefan von Universal Exports sich tatsächlich über SSH auf den Host verbindet.\n Falls dies der Fall sein sollte versuchen Sie den Host zu übernehmen.\n ## Wie loggt sich Stefan ein\n Links neben Ihnen ist Ihr Rechner. Sie befinden sich im Ordner `/h4cker`\n In diesem Ordner befindet sich ein Python-Skript.\n Geben Sie den `$ ls`, um sich den Inhalt des Ordners anzuzeigen.\n Das Python-Skript `ssh-check-username.py` überprüft, ob ein bestimmter Benutzer auf einem Host existiert.\n Verwenden Sie das Python-Skript so: `python ssh-check-username.py --username Stefans Username stefan.admin.UniversalExports.com`.\n *Probieren Sie drei Usernames mit dem obigen Befehl aus und bestätigen Sie mit Next*",
+        "schritt": 0,
+        "onInstance": "http://localhost:8081" 
+    },
+    "_id": "5e094ab3912a6881afcd26c0",
+    "courseName": "User Enumeration",
+    "__v": 0
+    },
+    {
+        "anleitung": {
+        "schrittText": "# Openssh Enumeration\n Ihr Kollege hat in der zwischenzeit herausgefunden, dass Stefan von Universal Exports ein Github Account hat.\n Schauen Sie sich sein Profil auf [Github](https://github.com/stefanv) an.\n Auf dem Profil müsste Ihnen dieser Abschnitt aufgefallen sein.\n",
+        "schritt": 1,
+        "onInstance": "http://localhost:8081" 
+    },
+    "_id": "5e094ab3912a6881afcd26c1",
+    "courseName": "User Enumeration",
+    "__v": 0
+    }
+]
