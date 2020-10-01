@@ -6,7 +6,7 @@ document.body.prepend(newdiv)
 
 newdiv.style = " position: relative; " 
 
-newparagraph.style=" height: 75vh; width: 75vw;position:absolute;top:0;z-index:1000;background-color: #555;  color:white;"
+newparagraph.style=" height: 75vh; width: 75vw;position:absolute;top:0;z-index:1000;background-color: #555;  color:white;font-size: 22px;"
 
 document.querySelector(".navbar.hw-navbar.navbar-fixed-top").style="position: unset !important;"
 
